@@ -1,3 +1,8 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'lib/marshmallow/parser.rb'
+
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
