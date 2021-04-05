@@ -5,7 +5,7 @@ require "marshmallow"
 require "minitest/autorun"
 
 def test(description, &block)
-  method_name = "test_#{description.downcase.gsub(' ', '_')}"
+  method_name = "test_#{description.downcase.gsub(" ", "_")}"
 
   raise "Test method (#{method_name}) already defined!!" if method_defined?(method_name)
 
