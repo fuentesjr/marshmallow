@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Salvador Fuentes Jr"]
   spec.email         = ["fuentesjr@gmail.com"]
 
-  spec.summary       = "Another boring JSON parser"
-  spec.description   = "A boring JSON parser built using a lexer, parser, ast, etc."
+  spec.summary       = "Yet another boring JSON parser"
+  spec.description   = "A boring JSON parser built using a lexer, parser, ast, etc. (づ｡◕‿‿◕｡)づ"
   spec.homepage      = "https://github.com/fuentesjr/marshmallow"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new("~> 3.0")
