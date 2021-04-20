@@ -1,14 +1,15 @@
-# frozen_string_literal: true
-
 require "strscan"
 
 module Marshmallow
   # Our simple lexer that will recognize the basic tokens:
   # :STRING, :NUMBER, :TRUE, :FALSE, and :NULL
   class Lexer
-    def initialize(input)
-      @input = input
-      @scanner = StringScanner.new(@input)
+    def initialize
+      @scanner = StringScanner.new ""
+    end
+
+    def feed(input)
+      @scanner << input
     end
 
     def next_token # rubocop:disable Metrics/MethodLength
